@@ -14,7 +14,9 @@ export const Sidebar = () => {
     const menuOptions=(
         <>
         <NewDocumentButton/>
-
+{/* My Documents */}
+{/* List */}
+{/* Shared with you */}
         </>
     );
   return (
@@ -38,7 +40,7 @@ size={40}
   </SheetContent>
 </Sheet> 
 </div>
-<div className='md:inline'> {menuOptions}</div>
+<div className='hidden md:inline'> {menuOptions}</div>
         </div>
 
   )
