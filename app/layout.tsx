@@ -16,6 +16,11 @@ export default function RootLayout({
 
         <Header/>
         {children}
+
+        <div className="flex ">
+{/* SideBar */}
+
+        </div>
       </body>
     </html>
     </ClerkProvider>
