@@ -18,13 +18,15 @@ export const Header = () => {
     <SignedOut>
         <SignInButton/>
     </SignedOut>
-    <SignedIn>
         <div className='flex items-center'>
+
+    <SignedIn>
         <UserButton/>
     
          <SignOutButton/>
-</div>
     </SignedIn>
+</div>
+
 </div>
     </div>
   )

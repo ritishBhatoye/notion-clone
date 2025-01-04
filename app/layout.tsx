@@ -15,11 +15,13 @@ export default function RootLayout({
       >
 
         <Header/>
-        {children}
+        
 
-        <div className="flex ">
+        <div className="flex min-h-screen">
 {/* SideBar */}
-
+<div className="flex-1 p-4 bg-gray-100 ">
+{children} 
+</div>
         </div>
       </body>
     </html>
